@@ -76,8 +76,8 @@
           <action android:name="com.android.vending.INSTALL_REFERRER" />
         </intent-filter>
       </receiver>
-      -->
       <service android:name="com.google.android.gms.analytics.CampaignTrackingService" android:enabled="true" android:exported="false"/>
+      -->
     </config-file>
     <source-file src="android/UniversalAnalyticsPlugin.java" target-dir="src/com/danielcwilson/plugins/analytics" />
   </platform>
